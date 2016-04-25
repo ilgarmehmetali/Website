@@ -1,25 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet href="http://www.milgar.net/assets/xml/atom.xsl" type="text/xsl media="all"?>
+<?xml-stylesheet href="https://www.milgar.net/assets/xml/atom.xsl" type="text/xsl media="all"?>
 <feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom">
   <title>Mehmet Ali İLGAR</title>
-  <id>http://www.milgar.net/blog/index.atom</id>
-  <updated>2016-04-25T01:08:59Z</updated>
+  <id>https://www.milgar.net/blog/index.atom</id>
+  <updated>2016-04-25T16:21:04Z</updated>
   <author>
     <name>Mehmet Ali İLGAR</name>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://www.milgar.net/blog/index.atom"/>
-  <link rel="alternate" type="text/html" href="http://www.milgar.net/blog/"/>
+  <link rel="self" type="application/atom+xml" href="https://www.milgar.net/blog/index.atom"/>
+  <link rel="alternate" type="text/html" href="https://www.milgar.net/blog/"/>
   <generator uri="https://getnikola.com/">Nikola</generator>
   <entry>
     <title>A New Beginning</title>
-    <id>http://www.milgar.net/blog/a-new-beginning/</id>
+    <id>https://www.milgar.net/blog/a-new-beginning/</id>
     <updated>2016-04-22T04:40:51+03:00</updated>
     <published>2016-04-22T04:40:51+03:00</published>
     <author>
       <name>Mehmet Ali İLGAR</name>
     </author>
-    <link rel="alternate" type="text/html" href="http://www.milgar.net/blog/a-new-beginning/"/>
+    <link rel="alternate" type="text/html" href="https://www.milgar.net/blog/a-new-beginning/"/>
     <summary type="html">&lt;div&gt;&lt;p&gt;After a long break i decided to start a new blog. I was using wordpress before but i wanted to try something new this time. After thinking about it for a while i decided to write my own system.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.milgar.net/blog/a-new-beginning/"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;</summary>
+&lt;p&gt;&lt;a href="https://www.milgar.net/blog/a-new-beginning/"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;</summary>
   </entry>
 </feed>

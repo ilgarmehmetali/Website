@@ -1,4 +1,4 @@
-Sitemap: http://www.milgar.net/sitemapindex.xml
+Sitemap: https://www.milgar.net/sitemapindex.xml
 
 User-Agent: *
 Host: www.milgar.net

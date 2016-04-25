@@ -21,10 +21,10 @@ BLOG_AUTHOR = "Mehmet Ali İLGAR"  # (translatable)
 BLOG_TITLE = "Mehmet Ali İLGAR"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "http://www.milgar.net/"
+SITE_URL = "https://www.milgar.net/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-# BASE_URL = "http://www.milgar.net/"
+# BASE_URL = "https://www.milgar.net/"
 BLOG_EMAIL = "mehmet.ali@milgar.net"
 BLOG_DESCRIPTION = { "en": "Personal Blog of Mehmet Ali İLGAR", "tr": "Mehmet Ali İLGAR'ın Kişisel Sitesi" }  # (translatable)
 

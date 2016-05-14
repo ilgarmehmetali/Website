@@ -119,7 +119,7 @@ lang="{{ lang }}">
     <span>
     {% for langname in translations|sort %}
         {% if langname != lang %}
-            <a href="{{ abs_link(_link("root", None, langname)) }}" rel="alternate" hreflang="{{ langname }}">{{ messages("LANGUAGE CODE", langname) }}</a>
+            <a href="{{ _link("root", None, langname) }}" rel="alternate" hreflang="{{ langname }}">{{ messages("LANGUAGE CODE", langname) }}</a>
         {% endif %}
     {% endfor %}
     </span>

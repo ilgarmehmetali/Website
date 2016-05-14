@@ -1,6 +1,6 @@
 <!--
 .. title: Gnome Bildirim Uyarıları
-.. slug: gnome-bildirimleri-uyarilari
+.. slug: gnome-bildirim-uyarilari
 .. date: 2016-05-14 04:11:51 UTC+03:00
 .. tags:
 .. category:

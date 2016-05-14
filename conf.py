@@ -1085,11 +1085,7 @@ GENERATE_ATOM = True
 # Extra things you want in the pages HEAD tag. This will be added right
 # before </head>
 # (translatable)
-# EXTRA_HEAD_DATA = ""
-# Google Analytics or whatever else you use. Added to the bottom of <body>
-# in the default template (base.tmpl).
-# (translatable)
-BODY_END = """
+EXTRA_HEAD_DATA = """
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -1101,6 +1097,10 @@ BODY_END = """
 
 </script>
 """
+# Google Analytics or whatever else you use. Added to the bottom of <body>
+# in the default template (base.tmpl).
+# (translatable)
+# BODY_END = ""
 
 # The possibility to extract metadata from the filename by using a
 # regular expression.

@@ -239,6 +239,10 @@ DATE_FORMAT = '%Y-%m-%d'
 # python's locales will accept in your OS, by example
 # "en_US.utf8" in Unix-like OS, "English_United States" in Windows.
 # LOCALES = dict mapping language --> explicit locale for the languages
+LOCALES = {
+	'en': 'en_GB.utf8',
+	'tr': 'tr_TR.utf8'
+}
 # in TRANSLATIONS. You can omit one or more keys.
 # LOCALE_FALLBACK = locale to use when an explicit locale is unavailable
 # LOCALE_DEFAULT = locale to use for languages not mentioned in LOCALES; if

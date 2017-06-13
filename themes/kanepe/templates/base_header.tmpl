@@ -66,13 +66,15 @@
 					{{ post.author()|e }}
 				{% endif %}
 				</strong>
-				<strong class="blue-grey-text text-lighten-3">
-					<a href="{{ post.permalink() }}" rel="bookmark">
-						<time class="published dt-published" datetime="{{ post.formatted_date('webiso') }}" itemprop="datePublished" title="{{ post.formatted_date(date_format)|e }}">
-							{{ post.formatted_date(date_format)|e }}
-						</time>
-					</a>
-				</strong>
+				{% if 'post_page' in pagekind %}
+					<strong class="blue-grey-text text-lighten-3">
+						<a href="{{ post.permalink() }}" rel="bookmark">
+							<time class="published dt-published" datetime="{{ post.formatted_date('webiso') }}" itemprop="datePublished" title="{{ post.formatted_date(date_format)|e }}">
+								{{ post.formatted_date(date_format)|e }}
+							</time>
+						</a>
+					</strong>
+				{% endif %}
 			</h6>
 		</div>
 		{% endif %}

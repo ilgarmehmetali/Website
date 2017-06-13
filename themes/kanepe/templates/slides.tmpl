@@ -1,0 +1,13 @@
+{% block content %}
+<div id="{{ carousel_id }}" class="carousel carousel-slider">
+    {% for i, image in enumerate(slides_content) %}
+        <a class="carousel-item" ><img src="{{ image }}"></a>
+    {% endfor %}
+</div>
+<script>
+    $(document).ready(function(){
+        $('#{{ carousel_id }}').carousel({fullWidth: true, indicators: true});
+        $('#{{ carousel_id }}').css("min-height", "400px");
+});
+</script>
+{% endblock %}

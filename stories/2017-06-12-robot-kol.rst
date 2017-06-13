@@ -1,0 +1,17 @@
+.. title: Robotic Arm
+.. slug: robotic-arm
+.. date: 2017-06-12 02:48:39 UTC+03:00
+.. tags:
+.. category:
+.. link:
+.. description:
+.. type: text
+
+This is an 3d controler for an arduino controlled robotic arm.
+
+Some of my friends were working on creating a arduino controlled robotic arm.
+They were using an desktop app to set arm section angles, i wrote this as an alternative controller for them.
+
+
+.. slides::
+	/images/robotic-arm/1.png

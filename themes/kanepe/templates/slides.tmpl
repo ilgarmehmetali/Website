@@ -8,6 +8,7 @@
     $(document).ready(function(){
         $('#{{ carousel_id }}').carousel({fullWidth: true, indicators: true});
         $('#{{ carousel_id }}').css("min-height", "400px");
+        $('#{{ carousel_id }}').css("height", $('#{{ carousel_id }}').find("img").first().height());
 });
 </script>
 {% endblock %}

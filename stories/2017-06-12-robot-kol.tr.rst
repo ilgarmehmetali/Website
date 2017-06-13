@@ -1,0 +1,19 @@
+.. title: Robot Kol
+.. slug: robotic-arm
+.. date: 2017-06-12 02:48:39 UTC+03:00
+.. tags:
+.. category:
+.. link:
+.. description:
+.. type: text
+
+Arduino ile çalışan bir robot kol için yazdığım 3D kontrol uygulaması.
+
+Bazı arkadaşlarım(Ali Arslan, Akif Tezcan, Ahmet Umut Şerefoğlu) robot kol geliştirme üzerine çalışıyorlardı.
+
+Robot kolun eklem derecelerini ayarlamak için bir masaüstü uygulaması kullanıyorları. Arkadaşların robot koluna alternetif bir kontrol uygulaması olarak bunu yazmıştım.
+
+Uygulamayı Unity3D ile C# kullanarak yazdım. Sistem robot kol ile seri bağlantı üzerinden iletişim kuruyor.
+
+.. slides::
+	/images/robotic-arm/1.png
